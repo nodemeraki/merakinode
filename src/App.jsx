@@ -8,6 +8,7 @@ import Services from "./pages/services/Services.jsx";
 import Portfolio from "./pages/portfolio/Portfolio.jsx";
 import ContactUs from "./pages/contactUs/ContactUs.jsx";
 import CaseStudy from "./pages/projectCaseStudy/CaseStudy.jsx";
+import RequestQuote from "./pages/RequestQuote/RequestQuote.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/project-case-study/:id" element={<CaseStudy />} />
+        <Route path="/request-quote" element={<RequestQuote />} />
       </Routes>
     </Router>
   );
