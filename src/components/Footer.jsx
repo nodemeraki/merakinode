@@ -113,7 +113,10 @@ function Footer() {
               <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link to="/service" className="hover:text-primary transition">
+                  <Link
+                    to="/services"
+                    className="hover:text-primary transition"
+                  >
                     Services
                   </Link>
                 </li>
@@ -126,12 +129,18 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="hover:text-primary transition">
+                  <Link
+                    to="/about-us"
+                    className="hover:text-primary transition"
+                  >
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="hover:text-primary transition">
+                  <Link
+                    to="/contact-us"
+                    className="hover:text-primary transition"
+                  >
                     Contact Us
                   </Link>
                 </li>
