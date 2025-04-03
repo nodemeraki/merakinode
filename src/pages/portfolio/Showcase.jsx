@@ -2,12 +2,12 @@ import { useState } from "react";
 import ServiceButtons from "../../components/ServiceButtons";
 import ServiceImageData from "../../components/ServiceImageData";
 
-import brandStrategy from "../../assets/shared-images/brand.png";
+import brandStrategy from "../../assets/shared-images/Brand.png";
 import design from "../../assets/shared-images/UX.png";
 import development from "../../assets/shared-images/web-app-dev.png";
 import writing from "../../assets/shared-images/content.png";
-import graphics from "../../assets/shared-images/motion-graphic.png";
-import marketing from "../../assets/shared-images/marketing.png";
+import graphics from "../../assets/shared-images/Motion-graphic.png";
+import marketing from "../../assets/shared-images/Marketing.png";
 
 const Showcase = () => {
   // Define categories
