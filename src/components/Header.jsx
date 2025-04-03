@@ -33,8 +33,8 @@ const Header = () => {
         {/* desktop nav */}
         <ul
           className={`fixed md:static z-10 top-0 right-0 h-screen md:h-auto md:bg-transparent md:flex md:items-center md:space-x-6 transition-all duration-300 ease-in-out bg-white w-2/3 p-6 md:w-auto md:p-0 shadow-lg md:shadow-none transform ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          } md:translate-x-0 flex flex-col gap-4 items-center`}
+            isOpen ? "translate-x-0 flex-col gap-4" : "translate-x-full gap-4"
+          } md:translate-x-0 flex justify-center  items-center`}
         >
           {/* Slogan (Mobile only) */}
           <div className="relative md:hidden text-white bg-primary w-full text-center italic py-10 mb-6">
