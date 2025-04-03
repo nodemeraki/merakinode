@@ -52,24 +52,26 @@ const Header = () => {
             </div>
           )}
           {/* nav links */}
-          {["Home", "About Us", "Portfolio"].map((link, index) => (
-            <li key={index}>
-              <NavLink
-                to={
-                  link === "Home"
-                    ? "/"
-                    : `/${link.toLowerCase().replace(/\s+/g, "-")}`
-                }
-                className={({ isActive }) =>
-                  `${
-                    isActive ? "text-primary" : "text-black"
-                  } font-bold hover:text-primary`
-                }
-              >
-                {link}
-              </NavLink>
-            </li>
-          ))}
+          {["Home", "About Us", "Portfolio", "Contact Us"].map(
+            (link, index) => (
+              <li key={index}>
+                <NavLink
+                  to={
+                    link === "Home"
+                      ? "/"
+                      : `/${link.toLowerCase().replace(/\s+/g, "-")}`
+                  }
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? "text-primary" : "text-black"
+                    } font-bold hover:text-primary`
+                  }
+                >
+                  {link}
+                </NavLink>
+              </li>
+            )
+          )}
 
           {/* Social Media Icons (Mobile Only) */}
           <div className="flex justify-center space-x-4 mt-10 mb-6 md:hidden">
