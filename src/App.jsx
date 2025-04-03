@@ -8,7 +8,7 @@ import Services from "./pages/services/Services.jsx";
 import Portfolio from "./pages/portfolio/Portfolio.jsx";
 import ContactUs from "./pages/contactUs/ContactUs.jsx";
 import CaseStudy from "./pages/projectCaseStudy/CaseStudy.jsx";
-import RequestQuote from "./pages/RequestQuote/RequestQuote.jsx";
+import RequestQuote from "./pages/quoteRequest/RequestQuote.jsx";
 
 const App = () => {
   return (
