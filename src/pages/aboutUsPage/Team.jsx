@@ -48,13 +48,6 @@ const teamMembers = [
     // image: Member4,
     image: "../../assets/about-img/Member5.png",
   },
-  {
-    id: 6,
-    name: "SAMMY WHITE", // placeholder
-    profession: "Fullstack",
-    // image: Member5,
-    image: "../../assets/about-img/Member5.png",
-  },
 ];
 
 const Team = () => {
