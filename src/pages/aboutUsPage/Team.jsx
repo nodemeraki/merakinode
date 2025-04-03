@@ -5,11 +5,11 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import Member0 from "../../assets/about-img/member1.png";
-import Member1 from "../../assets/about-img/member2.png";
-import Member2 from "../../assets/about-img/member3.png";
-import Member3 from "../../assets/about-img/member4.png";
-import Member4 from "../../assets/about-img/member5.png";
+import { Member0 } from "../../assets/about-img/member1.png";
+import { Member1 } from "../../assets/about-img/member2.png";
+import { Member2 } from "../../assets/about-img/member3.png";
+import { Member3 } from "../../assets/about-img/member4.png";
+import { Member4 } from "../../assets/about-img/member5.png";
 
 const teamMembers = [
   {
