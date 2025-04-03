@@ -18,42 +18,42 @@ const teamMembers = [
     name: "SUNDAY TOGGS",
     profession: "Web Developer",
     // image: Member0,
-    image: "src/assets/about-img/Member1.png",
+    image: "../../assets/about-img/Member1.png",
   },
   {
     id: 2,
     name: "MICHEAL ADEBOLA",
     profession: "Manager",
     // image: Member1,
-    image: "src/assets/about-img/Member2.png",
+    image: "../../assets/about-img/Member2.png",
   },
   {
     id: 3,
     name: "GRACE LOVEDAY",
     profession: "Marketer",
     // image: Member2,
-    image: "src/assets/about-img/Member3.png",
+    image: "../../assets/about-img/Member3.png",
   },
   {
     id: 4,
     name: "BRIGGS BROWN",
     profession: "Content Writer",
     // image: Member3,
-    image: "src/assets/about-img/Member4.png",
+    image: "../../assets/about-img/Member4.png",
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
     // image: Member4,
-    image: "src/assets/about-img/Member5.png",
+    image: "../../assets/about-img/Member5.png",
   },
   {
     id: 6,
     name: "SAMMY WHITE", // placeholder
     profession: "Fullstack",
     // image: Member5,
-    image: "src/assets/about-img/Member5.png",
+    image: "../../assets/about-img/Member5.png",
   },
 ];
 
