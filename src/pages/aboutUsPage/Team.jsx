@@ -5,11 +5,18 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import { Member0 } from "../../assets/about-img/member1.png";
-import { Member1 } from "../../assets/about-img/member2.png";
-import { Member2 } from "../../assets/about-img/member3.png";
-import { Member3 } from "../../assets/about-img/member4.png";
-import { Member4 } from "../../assets/about-img/member5.png";
+// from public
+import Member0 from "/about-img/member1.png";
+import Member1 from "/about-img/member2.png";
+import Member2 from "/about-img/member3.png";
+import Member3 from "/about-img/member4.png";
+import Member4 from "/about-img/member5.png";
+
+// import Member0 from "../../assets/about-img/member1.png";
+// import Member1 from "../../assets/about-img/member2.png";
+// import Member2 from "../../assets/about-img/member3.png";
+// import Member3 from "../../assets/about-img/member4.png";
+// import Member4 from "../../assets/about-img/member5.png";
 
 const teamMembers = [
   {
@@ -64,11 +71,17 @@ const Team = () => {
             loading="lazy"
             className="bg-[#1A4E89] text-white shadow-lg rounded-lg p-3 pb-10 flex flex-col items-center text-center mx-auto"
           >
-            <img
+            {/* <img
               src={member.image}
               alt={member.name}
               className="w-full h-auto object-cover rounded-sm border-4 border-gray-300"
+            /> */}
+            <img
+              src={`/assets/about-img/member${member.id}.png`}
+              alt={member.name}
+              className="w-full h-auto object-cover rounded-sm border-4 border-gray-300"
             />
+
             <h3 className="mt-4 text-lg font-semibold">{member.name}</h3>
             <p className="text-gray-300 text-sm mt-2">{member.profession}</p>
             <div className="flex gap-3 mt-4">
