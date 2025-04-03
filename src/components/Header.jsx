@@ -52,7 +52,7 @@ const Header = () => {
             </div>
           )}
           {/* nav links */}
-          {["Home", "About Us", "Portfolio", "Contact Us"].map(
+          {["Home", "About Us", "Services", "Portfolio", "Contact Us"].map(
             (link, index) => (
               <li key={index}>
                 <NavLink
