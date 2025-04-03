@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="relative z-50 bg-body">
-      <nav className="flex justify-between items-center py-6 px-6">
+      <nav className="flex justify-between items-center py-6 px-6 container mx-auto">
         {/* logo */}
         <div>
           <img src={logo} alt="logo" className="h-12" />
@@ -36,7 +36,7 @@ const Header = () => {
             isOpen
               ? "translate-x-0 flex-col gap-4"
               : "translate-x-full gap-4 hidden"
-          } md:translate-x-0 flex justify-center  items-center`}
+          } md:translate-x-0 flex justify-center items-center`}
         >
           {/* Slogan (Mobile only) */}
           {isOpen && (

@@ -5,7 +5,7 @@ const content = [
     title: "BRAND STRATEGY",
     description:
       "At MERAKINODE, we are a  well-known brand that boost company’s worth by offering it a competitive advantage in the market place and the development of strategic assistance in determining who you are, design is the method by wish our inner most visions are projected, a logo is more than just an identity, it’s a story its encompasses all the  message with wish the visionaries wants to project in a very simple, immediate, instant and unique way, lets tell your story, get a logo now “click here”",
-    image: "src/assets/shared-images/brand.png",
+    image: "../../assets/shared-images/brand.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const content = [
     title: "UI/UX (User Experience) DESIGN",
     description:
       "At MERAKINODE employs design concepts and (UI/UX) design to assist businesses in creating customer experiences while interacting with digital products. We produce stunning designs that optimize the overall experience for the audience through a collaborative process. ",
-    image: "src/assets/shared-images/UX.png",
+    image: "../../assets/shared-images/UX.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const content = [
     title: "WEB / MOBILE APP DEVELOPMENT",
     description:
       "At MERAKINODE editorial design is taken into account, we provide good typography, graphics, and illustrations to make publications appealing and visually intriguing. books, periodicals, essays, and newspapers, for example “some catalogues or a link to the gallery” .",
-    image: "src/assets/shared-images/web-app-dev.png",
+    image: "../../assets/shared-images/web-app-dev.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const content = [
     title: "CONTENT WRITING",
     description:
       "We create content to increase the visibility of your brand on all social media platforms, such as blog posts and articles, scripts for videos and podcasts, and so on, because content writing is a useful tool for helping your business attract attention and generate leads, increase brand awareness and credibility, and engage an online community for users.",
-    image: "src/assets/shared-images/content.png",
+    image: "../../assets/shared-images/content.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const content = [
     title: "MOTION GRAPHIC",
     description:
       "We create content to increase the visibility of your brand on all social media platforms, such as blog posts and articles, scripts for videos and podcasts, and so on, because content writing is a useful tool for helping your business attract attention and generate leads, increase brand awareness and credibility, and engage an online community for users.",
-    image: "src/assets/shared-images/motion-graphic.png",
+    image: "../../assets/shared-images/motion-graphic.png",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const content = [
     title: "SOCIAL MEDIA MARKETING",
     description:
       "At MERAKINODE we rely on the power of marketing platforms to connect targeted audiences with powerful content across multiple channels in order to engage existing customers and reach out to new ones.",
-    image: "src/assets/shared-images/Marketing.png",
+    image: "../../assets/shared-images/Marketing.png",
   },
 ];
 
