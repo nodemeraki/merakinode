@@ -5,48 +5,43 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-// import Member0 from "../../assets/about-img/Member1.png";
-// import Member1 from "../../assets/about-img/Member2.png";
-// import Member2 from "../../assets/about-img/Member3.png";
-// import Member3 from "../../assets/about-img/Member4.png";
-// import Member4 from "../../assets/about-img/Member5.png";
-// import Member5 from "../../assets/about-img/Member5.png";
+import Member0 from "../../assets/about-img/Member1.png";
+import Member1 from "../../assets/about-img/Member2.png";
+import Member2 from "../../assets/about-img/Member3.png";
+import Member3 from "../../assets/about-img/Member4.png";
+import Member4 from "../../assets/about-img/Member5.png";
+import Member5 from "../../assets/about-img/Member5.png";
 
 const teamMembers = [
   {
     id: 1,
     name: "SUNDAY TOGGS",
     profession: "Web Developer",
-    // image: Member0,
-    image: "../../assets/about-img/Member1.png",
+    image: Member0,
   },
   {
     id: 2,
     name: "MICHEAL ADEBOLA",
     profession: "Manager",
-    // image: Member1,
-    image: "../../assets/about-img/Member2.png",
+    image: Member1,
   },
   {
     id: 3,
     name: "GRACE LOVEDAY",
     profession: "Marketer",
-    // image: Member2,
-    image: "../../assets/about-img/Member3.png",
+    image: Member2,
   },
   {
     id: 4,
     name: "BRIGGS BROWN",
     profession: "Content Writer",
-    // image: Member3,
-    image: "../../assets/about-img/Member4.png",
+    image: Member3,
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
-    // image: Member4,
-    image: "../../assets/about-img/Member5.png",
+    image: Member4,
   },
 ];
 

@@ -1,51 +1,62 @@
+import brand from "../../assets/shared-images/brand.png";
+import uxImage from "../../assets/shared-images/UX.png";
+import webAppImage from "../../assets/shared-images/web-app-dev.png";
+import contentImage from "../../assets/shared-images/content.png";
+import motionGraphicImage from "../../assets/shared-images/motion-graphic.png";
+import marketingImage from "../../assets/shared-images/Marketing.png";
+
+// Service Icons
+import brandIcon from "../../assets/service-img/brandstr.png";
+import uiUxIcon from "../../assets/service-img/icon.png";
+import mobileIcon from "../../assets/service-img/mobile.png";
+import writeIcon from "../../assets/service-img/write.png";
+import motionIcon from "../../assets/service-img/motion.png";
+import speakerIcon from "../../assets/service-img/speaker.png";
+
 const content = [
   {
     id: 1,
-    icon: "src/assets/service-img/brandstr.png",
+    icon: brandIcon,
     title: "BRAND STRATEGY",
     description:
-      "At MERAKINODE, we are a  well-known brand that boost company’s worth by offering it a competitive advantage in the market place and the development of strategic assistance in determining who you are, design is the method by wish our inner most visions are projected, a logo is more than just an identity, it’s a story its encompasses all the  message with wish the visionaries wants to project in a very simple, immediate, instant and unique way, lets tell your story, get a logo now “click here”",
-    image: "../../assets/shared-images/brand.png",
+      "At MERAKINODE, we are a well-known brand that boosts company worth...",
+    image: brand,
   },
   {
     id: 2,
-    icon: "src/assets/service-img/icon.png",
+    icon: uiUxIcon,
     title: "UI/UX (User Experience) DESIGN",
     description:
-      "At MERAKINODE employs design concepts and (UI/UX) design to assist businesses in creating customer experiences while interacting with digital products. We produce stunning designs that optimize the overall experience for the audience through a collaborative process. ",
-    image: "../../assets/shared-images/UX.png",
+      "At MERAKINODE, we employ UI/UX design to create customer experiences...",
+    image: uxImage,
   },
   {
     id: 3,
-    icon: "src/assets/service-img/mobile.png",
+    icon: mobileIcon,
     title: "WEB / MOBILE APP DEVELOPMENT",
-    description:
-      "At MERAKINODE editorial design is taken into account, we provide good typography, graphics, and illustrations to make publications appealing and visually intriguing. books, periodicals, essays, and newspapers, for example “some catalogues or a link to the gallery” .",
-    image: "../../assets/shared-images/web-app-dev.png",
+    description: "At MERAKINODE, editorial design is taken into account...",
+    image: webAppImage,
   },
   {
     id: 4,
-    icon: "src/assets/service-img/write.png",
+    icon: writeIcon,
     title: "CONTENT WRITING",
-    description:
-      "We create content to increase the visibility of your brand on all social media platforms, such as blog posts and articles, scripts for videos and podcasts, and so on, because content writing is a useful tool for helping your business attract attention and generate leads, increase brand awareness and credibility, and engage an online community for users.",
-    image: "../../assets/shared-images/content.png",
+    description: "We create content to increase brand visibility...",
+    image: contentImage,
   },
   {
     id: 5,
-    icon: "src/assets/service-img/motion.png",
+    icon: motionIcon,
     title: "MOTION GRAPHIC",
-    description:
-      "We create content to increase the visibility of your brand on all social media platforms, such as blog posts and articles, scripts for videos and podcasts, and so on, because content writing is a useful tool for helping your business attract attention and generate leads, increase brand awareness and credibility, and engage an online community for users.",
-    image: "../../assets/shared-images/motion-graphic.png",
+    description: "We create visually engaging motion graphics...",
+    image: motionGraphicImage,
   },
   {
     id: 6,
-    icon: "src/assets/service-img/speaker.png",
+    icon: speakerIcon,
     title: "SOCIAL MEDIA MARKETING",
-    description:
-      "At MERAKINODE we rely on the power of marketing platforms to connect targeted audiences with powerful content across multiple channels in order to engage existing customers and reach out to new ones.",
-    image: "../../assets/shared-images/Marketing.png",
+    description: "At MERAKINODE, we rely on marketing platforms...",
+    image: marketingImage,
   },
 ];
 

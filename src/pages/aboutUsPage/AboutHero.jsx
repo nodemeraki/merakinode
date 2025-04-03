@@ -1,9 +1,12 @@
-// import HeroIm from "../assets/about-img/about-bg.png";
+import HeroIm from "../../assets/about-img/about-bg.png";
 
 const AboutHero = () => {
   return (
-    <section className="h-[45vh] md:h-[65vh] sm:h-[40vh] bg-body py-8">
-      <div className="relative bg-[url('src/assets/about-img/about-bg.png')] h-full max-w-[90%] w-full mx-auto rounded-xl md:rounded-2xl overflow-hidden bg-cover bg-center flex items-center justify-center shadow-gray-500 shadow-2xl">
+    <section className="min-h-[45vh] md:min-h-[75vh] h-full sm:h-[40vh] bg-body py-8">
+      <div
+        className="relative h-full max-w-[90%] w-full mx-auto rounded-xl md:rounded-2xl overflow-hidden bg-cover bg-center flex items-center justify-center shadow-gray-500 shadow-2xl"
+        style={{ backgroundImage: `url(${HeroIm})` }}
+      >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-25"></div>
 
