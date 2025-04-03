@@ -5,59 +5,65 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import Member0 from "../../assets/about-img/Member1.png";
-import Member1 from "../../assets/about-img/Member2.png";
-import Member2 from "../../assets/about-img/Member3.png";
-import Member3 from "../../assets/about-img/Member4.png";
-import Member4 from "../../assets/about-img/Member5.png";
-import Member5 from "../../assets/about-img/Member5.png";
+// import Member0 from "../../assets/about-img/Member1.png";
+// import Member1 from "../../assets/about-img/Member2.png";
+// import Member2 from "../../assets/about-img/Member3.png";
+// import Member3 from "../../assets/about-img/Member4.png";
+// import Member4 from "../../assets/about-img/Member5.png";
+// import Member5 from "../../assets/about-img/Member5.png";
 
 const teamMembers = [
   {
     id: 1,
     name: "SUNDAY TOGGS",
     profession: "Web Developer",
-    image: Member0,
+    // image: Member0,
+    image: "src/assets/about-img/Member1.png",
   },
   {
     id: 2,
     name: "MICHEAL ADEBOLA",
     profession: "Manager",
-    image: Member1,
+    // image: Member1,
+    image: "src/assets/about-img/Member2.png",
   },
   {
     id: 3,
     name: "GRACE LOVEDAY",
     profession: "Marketer",
-    image: Member2,
+    // image: Member2,
+    image: "src/assets/about-img/Member3.png",
   },
   {
     id: 4,
     name: "BRIGGS BROWN",
     profession: "Content Writer",
-    image: Member3,
+    // image: Member3,
+    image: "src/assets/about-img/Member4.png",
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
-    image: Member4,
+    // image: Member4,
+    image: "src/assets/about-img/Member5.png",
   },
   {
     id: 6,
     name: "SAMMY WHITE", // placeholder
     profession: "Fullstack",
-    image: Member5,
+    // image: Member5,
+    image: "src/assets/about-img/Member5.png",
   },
 ];
 
 const Team = () => {
   return (
-    <section className="py-12 bg-body px-6 md:px-16">
+    <section className="py-12 bg-body px-2 md:px-16">
       <h2 className="text-center text-3xl font-lora font-semibold text-gray-800">
         Meet our Team
       </h2>
-      <p className="text-center text-gray-600 w-[50vw] m-auto mt-2">
+      <p className="text-center text-gray-600 max-w-[80vw] md:max-w-[50vw] w-full m-auto mt-2">
         We have much planned for the future, working with great minds and
         organizations to create a better, smarter, and most effective business
         solution that works.
@@ -68,6 +74,7 @@ const Team = () => {
         {teamMembers.map((member) => (
           <div
             key={member.id}
+            loading="lazy"
             className="bg-[#1A4E89] text-white shadow-lg rounded-lg p-3 pb-10 flex flex-col items-center text-center mx-auto"
           >
             <img

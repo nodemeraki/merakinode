@@ -89,7 +89,7 @@ const RotatingText = () => {
 
 const Principles = () => {
   return (
-    <section className="bg-body pt-28 pb-12">
+    <section className="bg-body pt-10 md:pt-28 pb-12">
       {/* Title */}
       <h2 className="text-center text-2xl font-[500] font-lora text-black mb-12">
         The Principle that guides <span className="text-red-500">Us</span>
