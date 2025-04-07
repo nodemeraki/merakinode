@@ -6,54 +6,60 @@ import {
 } from "react-icons/fa6";
 
 // from public
-// import Member0 from "/about-img/member1.png";
-// import Member1 from "/about-img/member2.png";
-// import Member2 from "/about-img/member3.png";
+// import Member0 from "public/about-img/member1.png";
+//  import Member1 from "/about-img/member2.png";
+//import Member2 from "/about-img/member3.png";
 // import Member3 from "/about-img/member4.png";
 // import Member4 from "/about-img/member5.png";
 
-import Member0 from "../../assets/about-img/member1.png";
-import Member1 from "../../assets/about-img/member2.png";
-import Member2 from "../../assets/about-img/member3.png";
-import Member3 from "../../assets/about-img/member4.png";
-import Member4 from "../../assets/about-img/member5.png";
+// import Member0 from "../../assets/about-img/member1.png";
+// import Member1 from "../../assets/about-img/member2.png";
+// import Member2 from "../../assets/about-img/member3.png";
+// import Member3 from "../../assets/about-img/member4.png";
+// import Member4 from "../../assets/about-img/member5.png";
 
 const teamMembers = [
   {
     id: 1,
     name: "SUNDAY TOGGS",
     profession: "Web Developer",
-    image: Member0,
+    //image: Member0,
+    image: "/public/about-img/member1.png",
   },
   {
     id: 2,
     name: "MICHEAL ADEBOLA",
     profession: "Manager",
-    image: Member1,
+    // image: Member1,
+    image: "/public/about-img/member2.png",
   },
   {
     id: 3,
     name: "GRACE LOVEDAY",
     profession: "Marketer",
-    image: Member2,
+    // image: Member2,
+    image: "/public/about-img/member3.png",
   },
   {
     id: 4,
     name: "Paschal Briggs",
     profession: "Backend Developer",
-    image: Member3,
+    // image: Member3,
+    image: "/public/about-img/member4.png",
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
-    image: Member4,
+    // image: Member4,
+    image: "/public/about-img/member5.png",
   },
   {
     id: 5,
     name: "Lola Maria",
     profession: "Frontend Dev",
-    image: Member4,
+    // image: Member4,
+    image: "/public/about-img/member5.png",
   },
 ];
 
