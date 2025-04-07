@@ -1,16 +1,16 @@
-// import brand from "../../assets/shared-images/brand.png";
-// import uxImage from "../../assets/shared-images/UX.png";
-// import webAppImage from "../../assets/shared-images/web-app-dev.png";
-// import contentImage from "../../assets/shared-images/content.png";
-// import motionGraphicImage from "../../assets/shared-images/motion-graphic.png";
-// import marketingImage from "../../assets/shared-images/Marketing.png";
+import brand from "../../assets/shared-images/brand.png";
+import uxImage from "../../assets/shared-images/UX.png";
+import webAppImage from "../../assets/shared-images/web-app-dev.png";
+import contentImage from "../../assets/shared-images/content.png";
+import motionGraphicImage from "../../assets/shared-images/motion-graphic.png";
+import marketingImage from "../../assets/shared-images/Marketing.png";
 
-import brand from "/shared-images/brand.png";
-import uxImage from "/shared-images/UX.png";
-import webAppImage from "/shared-images/web-app-dev.png";
-import contentImage from "/shared-images/content.png";
-import motionGraphicImage from "/shared-images/motion-graphic.png";
-import marketingImage from "/shared-images/Marketing.png";
+// import brand from "/shared-images/brand.png";
+// import uxImage from "/shared-images/UX.png";
+// import webAppImage from "/shared-images/web-app-dev.png";
+// import contentImage from "/shared-images/content.png";
+// import motionGraphicImage from "/shared-images/motion-graphic.png";
+// import marketingImage from "/shared-images/Marketing.png";
 
 // Service Icons
 import brandIcon from "../../assets/service-img/brandstr.png";
@@ -27,6 +27,7 @@ const content = [
     title: "BRAND STRATEGY",
     description:
       "At MERAKINODE, we are a well-known brand that boosts company worth...",
+    // image: "/shared-images/brand.png",
     image: brand,
   },
   {

@@ -6,17 +6,17 @@ import {
 } from "react-icons/fa6";
 
 // from public
-import Member0 from "/about-img/member1.png";
-import Member1 from "/about-img/member2.png";
-import Member2 from "/about-img/member3.png";
-import Member3 from "/about-img/member4.png";
-import Member4 from "/about-img/member5.png";
+// import Member0 from "/about-img/member1.png";
+// import Member1 from "/about-img/member2.png";
+// import Member2 from "/about-img/member3.png";
+// import Member3 from "/about-img/member4.png";
+// import Member4 from "/about-img/member5.png";
 
-// import Member0 from "../../assets/about-img/member1.png";
-// import Member1 from "../../assets/about-img/member2.png";
-// import Member2 from "../../assets/about-img/member3.png";
-// import Member3 from "../../assets/about-img/member4.png";
-// import Member4 from "../../assets/about-img/member5.png";
+import Member0 from "../../assets/about-img/member1.png";
+import Member1 from "../../assets/about-img/member2.png";
+import Member2 from "../../assets/about-img/member3.png";
+import Member3 from "../../assets/about-img/member4.png";
+import Member4 from "../../assets/about-img/member5.png";
 
 const teamMembers = [
   {
@@ -39,14 +39,20 @@ const teamMembers = [
   },
   {
     id: 4,
-    name: "BRIGGS BROWN",
-    profession: "Content Writer",
+    name: "Paschal Briggs",
+    profession: "Backend Developer",
     image: Member3,
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
+    image: Member4,
+  },
+  {
+    id: 5,
+    name: "Lola Maria",
+    profession: "Frontend Dev",
     image: Member4,
   },
 ];
@@ -77,7 +83,7 @@ const Team = () => {
               className="w-full h-auto object-cover rounded-sm border-4 border-gray-300"
             /> */}
             <img
-              src={`/assets/about-img/member${member.id}.png`}
+              src={member.image}
               alt={member.name}
               className="w-full h-auto object-cover rounded-sm border-4 border-gray-300"
             />
