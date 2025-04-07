@@ -1,11 +1,11 @@
-import brand from "../../assets/shared-images/brand.png";
+//import brand from "../../assets/shared-images/brand.png";
 import uxImage from "../../assets/shared-images/UX.png";
 import webAppImage from "../../assets/shared-images/web-app-dev.png";
 import contentImage from "../../assets/shared-images/content.png";
 import motionGraphicImage from "../../assets/shared-images/motion-graphic.png";
 import marketingImage from "../../assets/shared-images/Marketing.png";
 
-// import brand from "/shared-images/brand.png";
+import brand from "/shared-images/brand.png";
 // import uxImage from "/shared-images/UX.png";
 // import webAppImage from "/shared-images/web-app-dev.png";
 // import contentImage from "/shared-images/content.png";
