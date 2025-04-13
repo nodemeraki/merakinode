@@ -1,11 +1,11 @@
-//import brand from "../../assets/shared-images/brand.png";
+import brand from "../../assets/brand.png";
 import uxImage from "../../assets/UX.png";
 import webAppImage from "../../assets/web-app-dev.png";
 import contentImage from "../../assets/content.png";
 import motionGraphicImage from "../../assets/motion-graphic.png";
 import marketingImage from "../../assets/Marketing.png";
 
-import brand from "/shared-images/brand.png";
+// import brand from "/shared-/brand.png";
 // import uxImage from "/shared-images/UX.png";
 // import webAppImage from "/shared-images/web-app-dev.png";
 // import contentImage from "/shared-images/content.png";
@@ -13,12 +13,12 @@ import brand from "/shared-images/brand.png";
 // import marketingImage from "/shared-images/Marketing.png";
 
 // Service Icons
-import brandIcon from "../../assets/service-img/brandstr.png";
-import uiUxIcon from "../../assets/service-img/icon.png";
-import mobileIcon from "../../assets/service-img/mobile.png";
-import writeIcon from "../../assets/service-img/write.png";
-import motionIcon from "../../assets/service-img/motion.png";
-import speakerIcon from "../../assets/service-img/speaker.png";
+import brandIcon from "../../assets/brandstr.png";
+import uiUxIcon from "../../assets/icon.png";
+import mobileIcon from "../../assets/mobile.png";
+import writeIcon from "../../assets/write.png";
+import motionIcon from "../../assets/motion.png";
+import speakerIcon from "../../assets/speaker.png";
 
 const content = [
   {
