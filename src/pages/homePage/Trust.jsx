@@ -1,4 +1,4 @@
-import trust from "/src/assets/home-img/trustHomePage.png";
+import trust from "/src/assets/trustHomePage.png";
 
 const Trust = () => {
   return (

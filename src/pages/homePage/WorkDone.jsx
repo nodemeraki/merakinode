@@ -2,9 +2,9 @@ import { useState } from "react";
 import ServiceImageData from "../../components/ServiceImageData.jsx";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
-import brandStrategy from "/src/assets/shared-images/Brand.png";
-import design from "/src/assets/shared-images/UX.png";
-import development from "/src/assets/shared-images/web-app-dev.png";
+import brandStrategy from "/src/assets/Brand.png";
+import design from "/src/assets/UX.png";
+import development from "/src/assets/web-app-dev.png";
 
 // Image data
 const workImages = [

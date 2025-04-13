@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Quote from "/src/assets/home-img/qoute.png";
+import Quote from "/src/assets/qoute.png";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 const testimonials = [

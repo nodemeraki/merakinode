@@ -1,4 +1,4 @@
-import BrandLogo from "/src/assets/project-case-study/caseStudyImg.png";
+import BrandLogo from "/src/assets/caseStudyImg.png";
 
 const CaseHead = () => {
   return (

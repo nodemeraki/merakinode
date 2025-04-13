@@ -1,4 +1,4 @@
-import HeroRq from "../../assets/Request/hero.jpg";
+import HeroRq from "../../assets/hero.jpg";
 
 const QuoteHero = () => {
   return (

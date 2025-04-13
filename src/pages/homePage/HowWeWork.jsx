@@ -1,4 +1,4 @@
-import work from "/src/assets/home-img/work.png";
+import work from "/src/assets/work.png";
 
 const HowWeWork = () => {
   return (

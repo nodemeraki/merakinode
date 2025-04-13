@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback } from "react";
 
-import MockImg from "/src/assets/project-case-study/mockup.png";
-import SolutionImg from "/src/assets/project-case-study/solution.png";
-import ImgOne from "/src/assets/project-case-study/flyerArtboard-1.png";
-import ImgTwo from "/src/assets/project-case-study/flyerArtboard-2.png";
-import ImgThree from "/src/assets/project-case-study/flyerArtboard-3.png";
+import MockImg from "/src/assets/mockup.png";
+import SolutionImg from "/src/assets/solution.png";
+import ImgOne from "/src/assets/flyerArtboard-1.png";
+import ImgTwo from "/src/assets/flyerArtboard-2.png";
+import ImgThree from "/src/assets/flyerArtboard-3.png";
 
 const imageData = [
   { src: ImgOne, alt: "Image One" },
