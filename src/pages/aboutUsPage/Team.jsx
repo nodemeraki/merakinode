@@ -55,7 +55,7 @@ const teamMembers = [
     // image: "/public/about-img/member5.png",
   },
   {
-    id: 5,
+    id: 6,
     name: "Lola Maria",
     profession: "Frontend Dev",
     image: Member4,

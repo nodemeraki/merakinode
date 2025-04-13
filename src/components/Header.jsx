@@ -69,7 +69,7 @@ function Header() {
           </li>
           <li className="text-center">
             <NavLink
-              to="/service"
+              to="/services"
               className={({ isActive }) =>
                 isActive
                   ? "text-blue-500 font-bold block py-2 md:py-0"
@@ -93,7 +93,7 @@ function Header() {
           </li>
           <li className="text-center">
             <NavLink
-              to="/about"
+              to="/about-us"
               className={({ isActive }) =>
                 isActive
                   ? "text-blue-500 font-bold block py-2 md:py-0"
@@ -105,14 +105,14 @@ function Header() {
           </li>
           <li className="text-center">
             <NavLink
-              to="/contact"
+              to="/contact-us"
               className={({ isActive }) =>
                 isActive
                   ? "text-blue-500 font-bold block py-2 md:py-0"
                   : "text-black block py-2 md:py-0 hover:text-primary"
               }
             >
-              Contact
+              Contact Us
             </NavLink>
           </li>
 

@@ -7,7 +7,7 @@ import { FiPhoneIncoming } from "react-icons/fi";
 
 const ContactHeader = () => {
   return (
-    <section className="max-w-[95%] w-full mx-auto">
+    <section className="max-w-[95%] w-full mx-auto flex flex-col justify-between items-center">
       <img src={TelephoneImg} alt="A picture of a blue telephone with wire" />
 
       {/* Holds the three containers */}
