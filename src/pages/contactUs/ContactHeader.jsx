@@ -1,4 +1,4 @@
-import TelephoneImg from "../../assets/contact/contact-us.png";
+import TelephoneImg from "../../assets/contact-us.png";
 
 import { FaStar } from "react-icons/fa";
 import { RiMapPin2Fill } from "react-icons/ri";

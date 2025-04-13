@@ -1,5 +1,5 @@
-import heroImage from "../../assets/portfolio/hero.png";
-import heroMobile from "../../assets/portfolio/hero-mobile.png";
+import heroImage from "../../assets/hero-portfolio.png";
+import heroMobile from "../../assets/hero-mobile.png";
 
 const PortfolioHero = () => {
   return (

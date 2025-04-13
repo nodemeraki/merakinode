@@ -3,7 +3,7 @@
 const HomeHero = () => {
   return (
     <section className="h-[48vh] md:h-[85vh] sm:h-[40vh] bg-body">
-      <div className="bg-[url('/src/assets/home-img/Hero.png')] h-[75%] md:h-[98%] max-w-[90%] w-full mx-auto rounded-xl md:rounded-2xl overflow-hidden bg-cover bg-center font-homeHero font-lexend shadow-gray-500 shadow-2xl">
+      <div className="bg-[url('/src/assets/Hero.png')] h-[75%] md:h-[98%] max-w-[90%] w-full mx-auto rounded-xl md:rounded-2xl overflow-hidden bg-cover bg-center font-homeHero font-lexend shadow-gray-500 shadow-2xl">
         <h1 className="max-w-[20ch] text-[#040303] text-sm uppercase font-bold md:text-[3.5rem] mb-[4%] ml-[10%] md:ml-[11%] mt-25 leading-6 md:leading-20">
           We make your business look
           <span className="block text-primary">Great</span>

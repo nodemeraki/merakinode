@@ -1,4 +1,4 @@
-import HeroIm from "/src/assets/service-img/caroze.jpg";
+import HeroIm from "/src/assets/caroze.jpg";
 
 const ServiceHero = () => {
   return (
