@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 import {
@@ -7,7 +8,8 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-import FooterBg from "../assets/footer-bg.png";
+// import FooterBg from "../assets/footer-bg.png";
+// import FooterBg from "/images/footer-bg.png";
 
 function Footer() {
   const year = new Date().getFullYear();
@@ -15,7 +17,8 @@ function Footer() {
     <footer>
       <div
         className="text-white py-12 bg-cover bg-center"
-        style={{ backgroundImage: `url(${FooterBg})` }}
+        // style={{ backgroundImage: `url(${FooterBg})` }}
+        style={{ backgroundImage: "url('/images/footer-bg.png')" }}
       >
         <div className="max-w-6xl mx-auto px-6">
           {/* === Mobile Version === */}
@@ -44,12 +47,15 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-primary transition">
+                <Link to="/about-us" className="hover:text-primary transition">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-primary transition">
+                <Link
+                  to="/contact-us"
+                  className="hover:text-primary transition"
+                >
                   Contact Us
                 </Link>
               </li>

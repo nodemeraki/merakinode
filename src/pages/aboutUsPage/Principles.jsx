@@ -1,5 +1,4 @@
-// const Circle = "/assets/about-img/circle.png";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { IoStar } from "react-icons/io5";
 
 const principlesData = [

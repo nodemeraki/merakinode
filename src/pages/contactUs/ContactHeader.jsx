@@ -1,4 +1,5 @@
-import TelephoneImg from "../../assets/contact-us.png";
+import React from "react";
+// import TelephoneImg from "../../assets/contact-us.png";
 
 import { FaStar } from "react-icons/fa";
 import { RiMapPin2Fill } from "react-icons/ri";
@@ -7,8 +8,11 @@ import { FiPhoneIncoming } from "react-icons/fi";
 
 const ContactHeader = () => {
   return (
-    <section className="max-w-[95%] w-full mx-auto">
-      <img src={TelephoneImg} alt="A picture of a blue telephone with wire" />
+    <section className="max-w-[95%] w-full mx-auto flex flex-col justify-between items-center">
+      <img
+        src="/images/contact-us.png"
+        alt="A picture of a blue telephone with wire"
+      />
 
       {/* Holds the three containers */}
       <div className="max-w-[1035px] w-full min-h-[244px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 my-10 md:my-16 px-7">

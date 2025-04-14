@@ -1,11 +1,13 @@
-import HeroIm from "../../assets/about-bg.png";
+import React from "react";
+// import HeroIm from "../../assets/aboutBg.png";
 
 const AboutHero = () => {
   return (
     <section className="min-h-[45vh] md:min-h-[75vh] h-full sm:h-[40vh] bg-body py-8">
       <div
         className="relative h-full max-w-[90%] w-full mx-auto rounded-xl md:rounded-2xl overflow-hidden bg-cover bg-center flex items-center justify-center shadow-gray-500 shadow-2xl"
-        style={{ backgroundImage: `url(${HeroIm})` }}
+        // style={{ backgroundImage: `url(${HeroIm})` }}
+        style={{ backgroundImage: "url('/images/aboutBg.png')" }}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-25"></div>

@@ -1,25 +1,25 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ServiceImageData from "../../components/ServiceImageData.jsx";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
-import brandStrategy from "/src/assets/Brand.png";
-import design from "/src/assets/UX.png";
-import development from "/src/assets/web-app-dev.png";
+// import brandStrategy from "/src/assets/Brand.png";
+// import design from "/src/assets/UX.png";
+// import development from "/src/assets/web-app-dev.png";
 
 // Image data
 const workImages = [
   {
-    src: brandStrategy,
+    src: "/images/brand.png",
     text: "Company Branding",
     id: "branding",
   },
   {
-    src: design,
+    src: "/images/UX.png",
     text: "UI/UX Design",
     id: "ui-ux",
   },
   {
-    src: development,
+    src: "/images/web-app-dev.png",
     text: "Web/App Development",
     id: "web-dev",
   },
