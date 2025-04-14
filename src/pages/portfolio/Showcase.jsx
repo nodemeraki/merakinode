@@ -1,13 +1,13 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ServiceButtons from "../../components/ServiceButtons";
 import ServiceImageData from "../../components/ServiceImageData";
 
-import brandStrategy from "../../assets/Brand.png";
-import design from "../../assets/UX.png";
-import development from "../../assets/web-app-dev.png";
-import writing from "../../assets/content.png";
-import graphics from "../../assets/Motion-graphic.png";
-import marketing from "../../assets/Marketing.png";
+// import brandStrategy from "../../assets/Brand.png";
+// import design from "../../assets/UX.png";
+// import development from "../../assets/web-app-dev.png";
+// import writing from "../../assets/content.png";
+// import graphics from "../../assets/Motion-graphic.png";
+// import marketing from "../../assets/Marketing.png";
 
 const Showcase = () => {
   // Define categories
@@ -23,37 +23,37 @@ const Showcase = () => {
   // Image data with categories
   const imageData = [
     {
-      src: brandStrategy,
+      src: "/images/brand.png",
       text: "Company Branding",
       category: "Brand Strategy",
       id: "branding",
     },
     {
-      src: design,
+      src: "/images/UX.png",
       text: "UI/UX Design",
       category: "UI/UX Design",
       id: "ui-ux",
     },
     {
-      src: development,
+      src: "/images/web-app-dev.png",
       text: "Web/App Development",
       category: "Web App Dev",
       id: "web-dev",
     },
     {
-      src: writing,
+      src: "/images/content.png",
       text: "Content/Technical Writing",
       category: "Brand Strategy",
       id: "writing",
     },
     {
-      src: graphics,
+      src: "/images/Motion-graphic.png",
       text: "Motion Graphics",
       category: "Motion Graphics",
       id: "graphics",
     },
     {
-      src: marketing,
+      src: "/images/Marketing.png",
       text: "Digital Marketing",
       category: "Marketing",
       id: "marketing",

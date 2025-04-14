@@ -1,70 +1,49 @@
-import brand from "../../assets/brand.png";
-import uxImage from "../../assets/UX.png";
-import webAppImage from "../../assets/web-app-dev.png";
-import contentImage from "../../assets/content.png";
-import motionGraphicImage from "../../assets/motion-graphic.png";
-import marketingImage from "../../assets/Marketing.png";
-
-// import brand from "/shared-/brand.png";
-// import uxImage from "/shared-images/UX.png";
-// import webAppImage from "/shared-images/web-app-dev.png";
-// import contentImage from "/shared-images/content.png";
-// import motionGraphicImage from "/shared-images/motion-graphic.png";
-// import marketingImage from "/shared-images/Marketing.png";
-
-// Service Icons
-import brandIcon from "../../assets/brandstr.png";
-import uiUxIcon from "../../assets/icon.png";
-import mobileIcon from "../../assets/mobile.png";
-import writeIcon from "../../assets/write.png";
-import motionIcon from "../../assets/motion.png";
-import speakerIcon from "../../assets/speaker.png";
+import React from "react";
 
 const content = [
   {
     id: 1,
-    icon: brandIcon,
+    icon: "/images/brandstr.png",
     title: "BRAND STRATEGY",
     description:
       "At MERAKINODE, we are a well-known brand that boosts company worth...",
-    // image: "/shared-images/brand.png",
-    image: brand,
+    image: "images/brand.png",
   },
   {
     id: 2,
-    icon: uiUxIcon,
+    icon: "/images/icon.png",
     title: "UI/UX (User Experience) DESIGN",
     description:
       "At MERAKINODE, we employ UI/UX design to create customer experiences...",
-    image: uxImage,
+    image: "/images/UX.png",
   },
   {
     id: 3,
-    icon: mobileIcon,
+    icon: "/images/mobile.png",
     title: "WEB / MOBILE APP DEVELOPMENT",
     description: "At MERAKINODE, editorial design is taken into account...",
-    image: webAppImage,
+    image: "/images/web-app-dev.png",
   },
   {
     id: 4,
-    icon: writeIcon,
+    icon: "/images/write.png",
     title: "CONTENT WRITING",
     description: "We create content to increase brand visibility...",
-    image: contentImage,
+    image: "/images/content.png",
   },
   {
     id: 5,
-    icon: motionIcon,
+    icon: "/images/motion.png",
     title: "MOTION GRAPHIC",
     description: "We create visually engaging motion graphics...",
-    image: motionGraphicImage,
+    image: "/images/Motion-graphic.png",
   },
   {
     id: 6,
-    icon: speakerIcon,
+    icon: "/images/speaker.png",
     title: "SOCIAL MEDIA MARKETING",
     description: "At MERAKINODE, we rely on marketing platforms...",
-    image: marketingImage,
+    image: "/images/Marketing.png",
   },
 ];
 

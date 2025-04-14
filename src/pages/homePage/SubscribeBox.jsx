@@ -1,3 +1,4 @@
+import React from "react";
 const SubscribeBox = () => {
   return (
     <section className="bg-body md:h-[50vh]">

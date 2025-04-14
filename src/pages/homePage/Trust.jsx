@@ -1,4 +1,5 @@
-import trust from "/src/assets/trustHomePage.png";
+import React from "react";
+// import trust from "/src/assets/trustHomePage.png";
 
 const Trust = () => {
   return (
@@ -6,7 +7,7 @@ const Trust = () => {
       {/* image div */}
       <div className="hidden md:block h-[70vh] md:w-[45vw] rounded-md">
         <img
-          src={trust}
+          src="/images/trustHomePage.png"
           alt="trustHomePage"
           className="h-full w-full object-cover"
         />

@@ -1,15 +1,15 @@
-import { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
-import MockImg from "/src/assets/mockup.png";
-import SolutionImg from "/src/assets/solution.png";
-import ImgOne from "/src/assets/flyerArtboard-1.png";
-import ImgTwo from "/src/assets/flyerArtboard-2.png";
-import ImgThree from "/src/assets/flyerArtboard-3.png";
+// import MockImg from "/src/assets/mockup.png";
+// import SolutionImg from "/src/assets/solution.png";
+// import ImgOne from "/src/assets/flyerArtboard-1.png";
+// import ImgTwo from "/src/assets/flyerArtboard-2.png";
+// import ImgThree from "/src/assets/flyerArtboard-3.png";
 
 const imageData = [
-  { src: ImgOne, alt: "Image One" },
-  { src: ImgTwo, alt: "Image Two" },
-  { src: ImgThree, alt: "Image Three" },
+  { src: "/images/flyerArtboard-1.png", alt: "Image One" },
+  { src: "/images/flyerArtboard-2.png", alt: "Image Two" },
+  { src: "/images/flyerArtboard-3.png", alt: "Image Three" },
 ];
 
 const CaseBody = () => {
@@ -150,7 +150,7 @@ const CaseBody = () => {
             </p>
           </div>
           <div className="hidden md:block">
-            <img src={SolutionImg} />
+            <img src="/images/solution.png" alt="pen and paper" />
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@ const CaseBody = () => {
       <div className="bg-[#CBA867] min-h-[258px] max-h-[623px] my-7 w-full flex items-center justify-center">
         <img
           className="max-w-[1139px] w-full max-h-[621px] h-auto"
-          src={MockImg}
+          src="/images/mockup.png"
           alt="An Image showing a pencil and note pad"
         />
       </div>

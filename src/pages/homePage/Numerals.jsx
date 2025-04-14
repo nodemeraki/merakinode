@@ -1,3 +1,4 @@
+import React from "react";
 const Numerals = () => {
   return (
     <section className="text-center bg-primary capitalize text-white min-h-28 md:h-[30vh] w-full flex gap-2 md:gap-25 justify-center items-center py-4 px-2">

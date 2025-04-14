@@ -1,11 +1,11 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import Quote from "/src/assets/qoute.png";
+// import Quote from "/src/assets/qoute.png";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 const testimonials = [
@@ -14,56 +14,56 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel  ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 4,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 5,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel  ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 6,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 7,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
   {
     id: 8,
     text: "Lorem ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor vel ac ipsum dolor sit amet consectetur. Locus ut lectus bibendum iaculis tempor...",
     name: "Ugbuchie",
     surname: "Chukwuemeka",
-    image: "/src/assets/home-img/man.png",
+    image: "/images/man.png",
   },
 ];
 
@@ -103,7 +103,11 @@ const Clients = () => {
               className=" p-6 bg-white rounded-xl shadow-lg mb-14"
             >
               <div className="flex flex-col items-center justify-center">
-                <img src={Quote} alt="quote" className="w-7 h-5 mt-3 mb-4" />
+                <img
+                  src="/images/quote.png"
+                  alt="quote"
+                  className="w-7 h-5 mt-3 mb-4"
+                />
               </div>
               <p className="text-left"> {testimonial.text}</p>
               <div className="flex mt-2 gap-3 items-center">

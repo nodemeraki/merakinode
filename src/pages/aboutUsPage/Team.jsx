@@ -1,3 +1,4 @@
+import React from "react";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -5,61 +6,54 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 
-// from public
-// import Member0 from "public/about-img/member1.png";
-//  import Member1 from "/about-img/member2.png";
-//import Member2 from "/about-img/member3.png";
-// import Member3 from "/about-img/member4.png";
-// import Member4 from "/about-img/member5.png";
-
-import Member0 from "../../assets/member1.png";
-import Member1 from "../../assets/member2.png";
-import Member2 from "../../assets/member3.png";
-import Member3 from "../../assets/member4.png";
-import Member4 from "../../assets/member5.png";
+// import Member0 from "../../assets/member1.png";
+// import Member1 from "../../assets/member2.png";
+// import Member2 from "../../assets/member3.png";
+// import Member3 from "../../assets/member4.png";
+// import Member4 from "../../assets/member5.png";
 
 const teamMembers = [
   {
     id: 1,
     name: "SUNDAY TOGGS",
     profession: "Web Developer",
-    image: Member0,
-    // image: "/public/about-img/member1.png",
+    // image: Member0,
+    image: "/images/member1.png",
   },
   {
     id: 2,
     name: "MICHEAL ADEBOLA",
     profession: "Manager",
-    image: Member1,
-    // image: "/public/about-img/member2.png",
+    // image: Member1,
+    image: "/images/member2.png",
   },
   {
     id: 3,
     name: "GRACE LOVEDAY",
     profession: "Marketer",
-    image: Member2,
-    // image: "/public/about-img/member3.png",
+    // image: Member2,
+    image: "/images/member3.png",
   },
   {
     id: 4,
     name: "Paschal Briggs",
     profession: "Backend Developer",
-    image: Member3,
-    // image: "/public/about-img/member4.png",
+    // image: Member3,
+    image: "/images/member4.png",
   },
   {
     id: 5,
     name: "EBRUWIYO SAMUEL",
     profession: "C.E.O",
-    image: Member4,
-    // image: "/public/about-img/member5.png",
+    // image: Member4,
+    image: "/images/member5.png",
   },
   {
     id: 6,
     name: "Lola Maria",
     profession: "Frontend Dev",
-    image: Member4,
-    // image: "/public/about-img/member5.png",
+    // image: Member4,
+    image: "/images/member5.png",
   },
 ];
 
@@ -83,11 +77,6 @@ const Team = () => {
             loading="lazy"
             className="bg-[#1A4E89] text-white shadow-lg rounded-lg p-3 pb-10 flex flex-col items-center text-center mx-auto"
           >
-            {/* <img
-              src={member.image}
-              alt={member.name}
-              className="w-full h-auto object-cover rounded-sm border-4 border-gray-300"
-            /> */}
             <img
               src={member.image}
               alt={member.name}

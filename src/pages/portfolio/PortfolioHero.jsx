@@ -1,18 +1,16 @@
-// import heroImage from "../../assets/portfolioImg.png";
-import heroMobile from "../../assets/hero-mobile.png";
+import React from "react";
+
+// import heroMobile from "../../assets/hero-mobile.png";
 
 const PortfolioHero = () => {
   return (
     <section>
       <div className="w-full relative pt-10">
-        {/* <picture>
-          <source
-            srcSet="../../assets/portfolioImg.png"
-            media="(min-width: 1280px)"
-          />
-          <img className="h-full w-full" src={heroMobile} alt="Hero Image" />
-        </picture> */}
-        <img className="h-full w-full" src={heroMobile} alt="Hero Image" />
+        <img
+          className="h-full w-full"
+          src="/images/hero-mobile.png"
+          alt="Hero Image"
+        />
 
         <h1 className="absolute inset-0 flex items-center justify-center font-extrabold text-[#0F0D0D] text-4xl md:text-[52px] leading-[57px] tracking-[0.07em] font-Lato">
           Our work

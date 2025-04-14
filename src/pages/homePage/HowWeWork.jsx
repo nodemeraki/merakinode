@@ -1,4 +1,5 @@
-import work from "/src/assets/work.png";
+import React from "react";
+// import work from "/src/assets/work.png";
 
 const HowWeWork = () => {
   return (
@@ -9,7 +10,11 @@ const HowWeWork = () => {
         </h3>
       </div>
       <div className="min-h-[30vh] md:h-[60vh] w-full rounded-2xl overflow-hidden">
-        <img src={work} alt="work" className="h-full w-full object-contain" />
+        <img
+          src="/images/work.png"
+          alt="work"
+          className="h-full w-full object-contain"
+        />
       </div>
     </section>
   );
